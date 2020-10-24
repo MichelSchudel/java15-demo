@@ -1,4 +1,4 @@
-package nl.craftsmen.java15demo;
+package nl.craftsmen.java15demo.patternmatching;
 
 import org.junit.jupiter.api.Test;
 
@@ -8,13 +8,10 @@ public class PatternMatchingTest {
 
     @Test
     public void test_pattern_matching_instance_of() {
-        exec("hello!");
-    }
-
-    private void exec(Object object) {
-        if (object instanceof String s) {
-            assertThat(s.toUpperCase()).isEqualTo("HELLO!");
+        Object text = "hello!";
+        if (text instanceof String s) {
+            System.out.println(s.toUpperCase());
         }
-
     }
+
 }

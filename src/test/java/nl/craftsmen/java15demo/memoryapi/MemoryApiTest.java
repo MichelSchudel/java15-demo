@@ -1,4 +1,4 @@
-package nl.craftsmen.java15demo;
+package nl.craftsmen.java15demo.memoryapi;
 
 import jdk.incubator.foreign.MemoryAddress;
 import jdk.incubator.foreign.MemoryHandles;

@@ -1,5 +1,6 @@
-package nl.craftsmen.java15demo;
+package nl.craftsmen.java15demo.records;
 
+import nl.craftsmen.java15demo.records.CoordinateRecord;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

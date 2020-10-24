@@ -1,4 +1,4 @@
-package nl.craftsmen.java15demo;
+package nl.craftsmen.java15demo.nullpointer;
 
 import org.junit.jupiter.api.Test;
 
